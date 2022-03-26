@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+}
+
+body {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    color: rgb(15, 15, 15);
+}
+
+form {
+    background-color: black;
+    border: 15px outset rgb(20, 20, 20);
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: black;
+}
+
+#c {
+    width: 200px;
+    color: orangered;
+}
+
+#add {
+    height: 100px;
+    color: orangered;
+}
+
+#equ {
+    background-color: orangered;
+}
+
+.all {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.display-box {
+    font-size: 30px;
+    width: 400px;
+    height: 170px;
+    border-bottom: 10px ridge rgb(65, 59, 59);
+    background-color: rgba(46, 44, 44, 0.774);
+    color: orangered;
+}
+
+.button {
+    background-color: black;
+    width: 95px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#new {
+    color: orangered;
+}
+
+#new:hover {
+    background-color: orangered;
+    color: black;
+}
+
+#c:hover {
+    background-color: orangered;
+    color: black
+}
+
+#add:hover {
+    background-color: orangered;
+    color: black
+}
+
+#equ:hover {
+    background-color: rgb(230, 101, 54);
+}
+
+.button:hover {
+    background-color: #7bb7d365;
+    color: black;
+    font-size: 40px;
+}
